@@ -19,4 +19,7 @@ app.listen(port, function(req, res) {
 })
 
 //database connection
+//online connection
+mongoose.connect('mongodb+srv://YOURUSERNAME:YOURPASSWORD@cluster0-1q7ty.mongodb.net/DATABASENAME')
+//local connection
 mongoose.connect('mongodb://localhost:27017/car-rental')
